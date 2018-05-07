@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hex-tile {
+    position: absolute;
+}
+
+.hex-tile-part {
+    position: absolute;
+    top: 25%;
+    background-color: blue;
+}
+
+.hex-tile-part-center {
+}
+
+.hex-tile-part-up {
+    transform: rotate(60deg);
+}
+
+.hex-tile-part-down {
+    transform: rotate(-60deg);
+}

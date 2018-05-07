@@ -1,0 +1,21 @@
+name: eschaton
+description: An absolute bare-bones web app.
+version: 0.0.1
+#homepage: https://www.example.com
+#author: Issac <email@example.com>
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+#dependencies:
+#  path: ^1.4.1
+
+dev_dependencies:
+  browser: ^0.10.0
+  build_runner:
+  build_web_compilers:
+  hexgrid:
+
+web:
+  compiler:
+    debug: dartdevc
