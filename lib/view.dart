@@ -159,8 +159,8 @@ class MapData {
   const MapData(this.columns, this.rows, this.tiles);
 
   Tile get(int column, int row) {
-    assert(column > 0 && column < columns);
-    assert(row > 0 && row < rows);
+    assert(column >= 0 && column < columns);
+    assert(row >= 0 && row < rows);
     return tiles[(row * columns) + column];
   }
 }
